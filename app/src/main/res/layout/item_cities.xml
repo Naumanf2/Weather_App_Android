@@ -1,0 +1,30 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="city"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:id="@+id/layoutBG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/bg_rounded"
+        android:elevation="4dp"
+        android:orientation="vertical"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="4dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{city}"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</layout>
+   
